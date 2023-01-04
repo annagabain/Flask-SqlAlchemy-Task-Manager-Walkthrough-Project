@@ -1,8 +1,8 @@
-pip install Flask
-
-pip install SQLAlchemy
+In Terminal:
 
 pip3 install 'Flask-SQLAlchemy<3' psycopg2
+
+python3 run.py
 
 ----------
 
