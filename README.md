@@ -2,8 +2,6 @@ In Terminal:
 
 pip3 install 'Flask-SQLAlchemy<3' psycopg2
 
-python3 run.py
-
 ----------
 
 If you get the following error after typing psql in the terminal:
@@ -14,3 +12,25 @@ Please use the following command in the terminal to set an environment variable 
 set_pg
 
 And then try the psql command again
+
+
+----------
+
+CREATE DATABASE taskmanager;
+
+to exit:  \q
+----------
+
+python3
+
+from taskmanager import db
+
+db.create_all()
+
+to exit:  exit()
+
+----------
+
+Run the programme:
+
+### python3 run.py
