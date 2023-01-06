@@ -19,6 +19,7 @@ And then try the psql command again
 CREATE DATABASE taskmanager;
 
 to exit:  \q
+
 ----------
 
 python3
